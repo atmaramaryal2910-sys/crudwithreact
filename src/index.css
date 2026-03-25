@@ -28,8 +28,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: 
-    linear-gradient(rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.4)),
-    url('./assets/stadium.png');
+    linear-gradient(rgba(15, 23, 42, 0.3), rgba(15, 23, 42, 0.3)),
+    url('/crudwithreact/stadium.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -57,6 +57,7 @@ body {
   font-weight: 800;
   background: linear-gradient(to right, var(--primary), var(--secondary));
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   display: flex;
   align-items: center;
