@@ -28,10 +28,12 @@ body {
   margin: 0;
   padding: 0;
   background-image: 
-    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,30%,0.2) 0, transparent 50%), 
-    radial-gradient(at 100% 0%, hsla(339,49%,30%,0.15) 0, transparent 50%);
+    linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)),
+    url('./assets/stadium.png');
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .container {
